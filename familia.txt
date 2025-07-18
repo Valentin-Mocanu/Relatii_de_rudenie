@@ -1,0 +1,37 @@
+﻿clauses
+    persoana("Laura", fata).
+    persoana("Roxana", fata).
+    persoana("Daniel", baiat).
+    persoana("Valentin", baiat).
+    persoana("Mihai", baiat).
+    persoana("Narcisa", fata).
+    persoana("Gigel", baiat).
+    persoana("Petre", baiat).
+    persoana("Luiza", fata).
+    persoana("Cosmin", baiat).
+    persoana("George", baiat).
+    persoana("Elena", fata).
+    persoana("Sorina", fata).
+    persoana("Andrei", baiat).
+    persoana("Ana", fata).
+    persoana("Vasile", baiat).
+    persoana("Cristina", fata).
+
+    parinte("Laura", "Mihai").
+    parinte("George", "Mihai").
+    parinte("Valentin", "Andrei").
+    parinte("Laura", "Petre").
+    parinte("Mihai", "Gigel").
+    parinte("Gigel", "Roxana").
+    parinte("Vasile", "Valentin").
+    parinte("Vasile", "Ana").
+    parinte("Ana", "Sorina").
+    parinte("Ana", "Cristina").
+    parinte("Narcisa", "George").
+    parinte("Vasile", "Daniel").
+
+    cuplu_casatorit("Valentin", "Luiza").
+    cuplu_casatorit("Mihai", "Elena").
+    cuplu_casatorit("Gigel", "Roxana").
+    cuplu_casatorit("Cosmin", "Narcisa").
+    cuplu_casatorit("Vasile", "Sorina").
